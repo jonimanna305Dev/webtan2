@@ -1,0 +1,992 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Explore WebTen developer profiles, technical skills, professional experience, and completed projects.">
+
+  <title>Our Profile | WebTen</title>
+
+  <!-- Bootstrap 6 Alpha -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/bootstrap.min6.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="bg-black p-4 sticky-top">
+    <div class="container">
+
+      <nav class="navbar sm:navbar-expand bg-1 fg-2 fg-white bg-black">
+        <div class="container-fluid">
+
+          <!-- Logo -->
+          <a class="navbar-brand fg-white fw-bold fs-xl"
+            href="index.html">
+            Web<span class="fg-success">Ten</span>
+          </a>
+
+          <!-- Mobile Toggle -->
+          <div class="d-flex align-items-center gap-2">
+            <button class="btn-icon navbar-toggler"
+              type="button"
+              data-bs-toggle="drawer"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+
+              <span class="navbar-toggler-icon"
+                aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <!-- Navigation Drawer -->
+          <dialog class="drawer drawer-end bg-black fg-white"
+            tabindex="-1"
+            id="navbarNav"
+            aria-labelledby="navbarNavLabel">
+
+            <div class="drawer-header">
+              <h5 class="drawer-title" id="navbarNavLabel">
+                Menu
+              </h5>
+
+              <button type="button"
+                class="btn-close"
+                data-bs-dismiss="drawer"
+                aria-label="Close"></button>
+            </div>
+
+            <div class="drawer-body">
+              <ul class="nav nav-underline mx-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link fg-white bg-black"
+                    href="index.html">
+                    Home
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link fg-white bg-black"
+                    href="about.html">
+                    About
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active fg-white bg-black"
+                    href="profile.html"
+                    aria-current="page">
+                    Profile
+                  </a>
+                </li>
+
+                <!-- Pages Menu -->
+                <li class="nav-item">
+                  <button class="nav-link fg-white bg-black"
+                    type="button"
+                    data-bs-toggle="menu"
+                    aria-expanded="false">
+                    Pages
+                  </button>
+
+                  <div class="menu">
+                    <a class="menu-item" href="team.html">
+                      Our Team
+                    </a>
+
+                    <a class="menu-item" href="services.html">
+                      Our Services
+                    </a>
+
+                    <hr class="menu-divider">
+
+                    <a class="menu-item" href="partners.html">
+                      Our Partners
+                    </a>
+                  </div>
+                </li>
+
+                <!-- News Menu -->
+                <li class="nav-item">
+                  <button class="nav-link fg-white bg-black"
+                    type="button"
+                    data-bs-toggle="menu"
+                    aria-expanded="false">
+                    News
+                  </button>
+
+                  <div class="menu">
+                    <a class="menu-item" href="blog.html">
+                      Our Blog
+                    </a>
+
+                    <a class="menu-item" href="events.html">
+                      Our Event
+                    </a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link fg-white bg-black"
+                    href="contact.html">
+                    Contact
+                  </a>
+                </li>
+
+              </ul>
+
+              <a href="contact.html"
+                class="btn-outline theme-success mt-3">
+                Get Started
+              </a>
+
+            </div>
+          </dialog>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- ================= PAGE HEADER ================= -->
+  <section class="bg-inverse fg-white text-center py-5">
+    <div class="container py-3">
+
+      <span class="badge bg-success fg-white mb-4">
+        WebTen Professionals
+      </span>
+
+      <h1 class="fw-bold display-5 mb-4">
+        Our <span class="fg-success">Profile</span>
+      </h1>
+
+      <p class="fg-white fg-50 mx-auto mb-3">
+        Discover the talented professionals behind
+        our innovative digital solutions.
+      </p>
+
+      <p class="fg-white fg-50 small mb-0">
+        Passionate about technology, creativity,
+        and building meaningful digital experiences.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- ================= PROFILE SECTION ================= -->
+  <section class="container mt-12 mb-12">
+
+    <div class="text-center mb-5">
+
+      <span class="fg-success fw-semibold small">
+        PROFESSIONAL PROFILE
+      </span>
+
+      <h2 class="fw-bold mt-2">
+        Meet Our <span class="fg-success">Expert</span>
+      </h2>
+
+      <p class="fg-secondary">
+        Experience, technical expertise, and creativity
+        working together to deliver excellent results.
+      </p>
+
+    </div>
+
+    <!-- Profile Card -->
+    <div class="card border rounded-4 shadow-sm overflow-hidden">
+
+      <!-- Cover Image -->
+      <div class="ratio ratio-21x9 bg-dark">
+        <img
+          src="img/slide 2.jpg"
+          class="w-100 h-100 object-fit-cover"
+          alt="Technology and software development cover">
+      </div>
+
+      <!-- Profile Image -->
+      <div class="position-relative">
+
+        <img
+          src="img/profile.png"
+          class="position-absolute top-0 start-0 translate-middle-y ms-4 rounded-circle border border-5 border-white object-fit-cover bg-white"
+          width="120"
+          height="120"
+          alt="Developer profile portrait">
+
+      </div>
+
+      <!-- Profile Details -->
+      <div class="card-body p-4 lg:p-5 mt-8">
+
+        <div class="row g-5">
+
+          <!-- Left Profile Information -->
+          <div class="col-12 lg:col-8">
+
+            <span class="badge bg-success fg-white mb-3">
+              Senior Developer
+            </span>
+
+            <h2 class="fw-bold mb-2">
+              John Doe
+            </h2>
+
+            <p class="fg-success fw-semibold mb-3">
+              <i class="bi bi-code-slash me-2"></i>
+              Senior Full Stack Software Engineer
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 fg-secondary small mb-4">
+
+              <span>
+                <i class="bi bi-building me-1 fg-success"></i>
+                TechCorp
+              </span>
+
+              <span>
+                <i class="bi bi-geo-alt me-1 fg-success"></i>
+                Dhaka, Bangladesh
+              </span>
+
+              <span>
+                <i class="bi bi-briefcase me-1 fg-success"></i>
+                8+ Years Experience
+              </span>
+
+            </div>
+
+            <!-- About -->
+            <h5 class="fw-bold mb-3">
+              About Me
+            </h5>
+
+            <p class="fg-secondary">
+              Passionate full stack developer with
+              8+ years of experience designing and
+              developing scalable web applications,
+              RESTful APIs, and modern digital
+              solutions.
+            </p>
+
+            <p class="fg-secondary">
+              Specialized in backend development,
+              frontend technologies, database
+              management, and building secure,
+              user-friendly applications that solve
+              real-world business challenges.
+            </p>
+
+            <!-- Skills -->
+            <h5 class="fw-bold mt-5 mb-3">
+              Technical <span class="fg-success">Skills</span>
+            </h5>
+
+            <div class="d-flex flex-wrap gap-2">
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-code-slash fg-success me-1"></i>
+                Laravel
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-code-square fg-success me-1"></i>
+                Vue.js
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-filetype-py fg-success me-1"></i>
+                Python
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-bootstrap fg-success me-1"></i>
+                Bootstrap
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-database fg-success me-1"></i>
+                MySQL
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-git fg-success me-1"></i>
+                Git
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-braces fg-success me-1"></i>
+                JavaScript
+              </span>
+
+              <span class="badge bg-body-tertiary fg-body border p-3">
+                <i class="bi bi-hdd-network fg-success me-1"></i>
+                REST APIs
+              </span>
+
+            </div>
+
+            <!-- Professional Expertise -->
+            <h5 class="fw-bold mt-5 mb-3">
+              Professional <span class="fg-success">Expertise</span>
+            </h5>
+
+            <div class="row row-cols-1 md:row-cols-2 g-3">
+
+              <div class="col">
+                <i class="bi bi-check-circle-fill fg-success me-2"></i>
+                <span class="small">Full Stack Development</span>
+              </div>
+
+              <div class="col">
+                <i class="bi bi-check-circle-fill fg-success me-2"></i>
+                <span class="small">REST API Development</span>
+              </div>
+
+              <div class="col">
+                <i class="bi bi-check-circle-fill fg-success me-2"></i>
+                <span class="small">Database Architecture</span>
+              </div>
+
+              <div class="col">
+                <i class="bi bi-check-circle-fill fg-success me-2"></i>
+                <span class="small">Application Security</span>
+              </div>
+
+              <div class="col">
+                <i class="bi bi-check-circle-fill fg-success me-2"></i>
+                <span class="small">Frontend Development</span>
+              </div>
+
+              <div class="col">
+                <i class="bi bi-check-circle-fill fg-success me-2"></i>
+                <span class="small">Software Optimization</span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Right Profile Sidebar -->
+          <div class="col-12 lg:col-4">
+
+            <!-- Contact Card -->
+            <div class="card rounded-4 border mb-4">
+              <div class="card-body p-4">
+
+                <h5 class="fw-bold mb-4">
+                  Contact <span class="fg-success">Information</span>
+                </h5>
+
+                <div class="d-grid gap-4">
+
+                  <div>
+                    <span class="fg-secondary small">
+                      <i class="bi bi-envelope fg-success me-2"></i>
+                      Email Address
+                    </span>
+
+                    <p class="fw-semibold mb-0 mt-1">
+                      <a href="mailto:john@example.com"
+                        class="fg-body text-decoration-none">
+                        john@example.com
+                      </a>
+                    </p>
+                  </div>
+
+                  <div>
+                    <span class="fg-secondary small">
+                      <i class="bi bi-telephone fg-success me-2"></i>
+                      Phone Number
+                    </span>
+
+                    <p class="fw-semibold mb-0 mt-1">
+                      <a href="tel:+8801234567890"
+                        class="fg-body text-decoration-none">
+                        +880 123-456-7890
+                      </a>
+                    </p>
+                  </div>
+
+                  <div>
+                    <span class="fg-secondary small">
+                      <i class="bi bi-geo-alt fg-success me-2"></i>
+                      Location
+                    </span>
+
+                    <p class="fw-semibold mb-0 mt-1">
+                      Dhaka, Bangladesh
+                    </p>
+                  </div>
+
+                </div>
+
+                <hr class="my-4">
+
+                <!-- CV Download -->
+                <a href="cv/johndoe_cv.pdf"
+                  class="btn-solid theme-success w-100 text-center"
+                  download>
+                  <i class="bi bi-download me-2"></i>
+                  Download CV
+                </a>
+
+              </div>
+            </div>
+
+
+            <!-- Rating Card -->
+            <div class="card rounded-4 border mb-4">
+              <div class="card-body p-4">
+
+                <h5 class="fw-bold mb-3">
+                  Professional Rating
+                </h5>
+
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="fs-3 fw-bold">
+                    4.0
+                  </span>
+
+                  <span class="fg-secondary">
+                    / 5.0
+                  </span>
+                </div>
+
+                <div class="text-warning mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+
+                <p class="fg-secondary small mb-0">
+                  Example professional rating.
+                </p>
+
+              </div>
+            </div>
+
+
+            <!-- Social Links -->
+            <div class="card rounded-4 border">
+              <div class="card-body p-4">
+
+                <h5 class="fw-bold mb-3">
+                  Connect With Me
+                </h5>
+
+                <div class="d-flex flex-wrap gap-2">
+
+                  <a href="https://facebook.com"
+                    class="btn-outline theme-info"
+                    aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+
+                  <a href="https://linkedin.com"
+                    class="btn-outline theme-primary"
+                    aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+
+                  <a href="https://github.com"
+                    class="btn-outline theme-inverse"
+                    aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://wa.me/8801234567890"
+                    class="btn-outline theme-success"
+                    aria-label="WhatsApp">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CORE SPECIALIZATIONS ================= -->
+  <section class="bg-body-tertiary py-5">
+    <div class="container py-4">
+
+      <div class="text-center mb-5">
+
+        <span class="fg-success fw-semibold small">
+          AREA OF EXPERTISE
+        </span>
+
+        <h2 class="fw-bold mt-2">
+          Core <span class="fg-success">Specializations</span>
+        </h2>
+
+        <p class="fg-secondary">
+          Building reliable and scalable software
+          through modern development practices.
+        </p>
+
+      </div>
+
+      <div class="row row-cols-1 md:row-cols-2 lg:row-cols-4 g-4">
+
+        <!-- Specialization 1 -->
+        <div class="col">
+          <div class="card h-100 rounded-4 border text-center p-4">
+            <div class="card-body">
+
+              <i class="bi bi-code-square text-primary display-5"></i>
+
+              <h5 class="fw-bold mt-3">
+                Web Development
+              </h5>
+
+              <p class="fg-secondary small mb-0">
+                Developing responsive and scalable
+                websites and web applications
+                with modern technologies.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Specialization 2 -->
+        <div class="col">
+          <div class="card h-100 rounded-4 border text-center p-4">
+            <div class="card-body">
+
+              <i class="bi bi-database fg-success display-5"></i>
+
+              <h5 class="fw-bold mt-3">
+                Backend Development
+              </h5>
+
+              <p class="fg-secondary small mb-0">
+                Building secure APIs, database
+                architectures, and reliable
+                server-side applications.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Specialization 3 -->
+        <div class="col">
+          <div class="card h-100 rounded-4 border text-center p-4">
+            <div class="card-body">
+
+              <i class="bi bi-window-stack text-warning display-5"></i>
+
+              <h5 class="fw-bold mt-3">
+                Frontend Development
+              </h5>
+
+              <p class="fg-secondary small mb-0">
+                Transforming creative designs
+                into interactive and user-friendly
+                digital experiences.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Specialization 4 -->
+        <div class="col">
+          <div class="card h-100 rounded-4 border text-center p-4">
+            <div class="card-body">
+
+              <i class="bi bi-cloud-check text-info display-5"></i>
+
+              <h5 class="fw-bold mt-3">
+                Deployment & Support
+              </h5>
+
+              <p class="fg-secondary small mb-0">
+                Deploying, maintaining, and
+                optimizing applications for
+                performance and reliability.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= DEVELOPMENT APPROACH ================= -->
+  <section class="container mt-12 mb-12">
+
+    <div class="text-center mb-5">
+
+      <span class="fg-success fw-semibold small">
+        HOW I WORK
+      </span>
+
+      <h2 class="fw-bold mt-2">
+        My Development <span class="fg-success">Approach</span>
+      </h2>
+
+      <p class="fg-secondary">
+        A structured and quality-focused approach
+        to delivering successful software projects.
+      </p>
+
+    </div>
+
+    <div class="row row-cols-1 md:row-cols-2 lg:row-cols-4 g-4">
+
+      <div class="col text-center">
+
+        <div class="bg-success fg-white rounded-pill py-2 mb-3">
+          01
+        </div>
+
+        <h6 class="fw-bold">Requirement Analysis</h6>
+
+        <p class="fg-secondary small">
+          Understanding business requirements,
+          objectives, and project expectations.
+        </p>
+
+      </div>
+
+      <div class="col text-center">
+
+        <div class="bg-success fg-white rounded-pill py-2 mb-3">
+          02
+        </div>
+
+        <h6 class="fw-bold">Planning & Architecture</h6>
+
+        <p class="fg-secondary small">
+          Creating scalable system designs
+          and effective development plans.
+        </p>
+
+      </div>
+
+      <div class="col text-center">
+
+        <div class="bg-success fg-white rounded-pill py-2 mb-3">
+          03
+        </div>
+
+        <h6 class="fw-bold">Development & Testing</h6>
+
+        <p class="fg-secondary small">
+          Writing clean, secure code and
+          testing application functionality.
+        </p>
+
+      </div>
+
+      <div class="col text-center">
+
+        <div class="bg-success fg-white rounded-pill py-2 mb-3">
+          04
+        </div>
+
+        <h6 class="fw-bold">Deployment & Support</h6>
+
+        <p class="fg-secondary small">
+          Deploying applications and providing
+          continued technical support.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= CALL TO ACTION ================= -->
+  <section class="bg-success fg-white text-center py-5">
+    <div class="container">
+
+      <h2 class="fw-bold mb-3">
+        Let's Build Something Great Together
+      </h2>
+
+      <p class="mb-4">
+        Have a project in mind? Let's transform
+        your ideas into innovative and scalable
+        digital solutions with WebTen.
+      </p>
+
+      <a href="contact.html"
+        class="btn-solid theme-inverse px-4">
+        Start Your Project
+        <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-inverse fg-white pt-5">
+
+    <div class="container mt-8">
+      <div class="row g-8 pb-7">
+
+        <!-- Company Information -->
+        <div class="col-12 lg:col-4">
+
+          <h3 class="fw-bold mb-3">
+            Web<span class="fg-success">Ten</span>
+          </h3>
+
+          <p class="fg-white">
+            Empowering businesses with innovative
+            software solutions, modern web applications,
+            mobile development, and reliable cloud services.
+          </p>
+
+          <div class="d-flex gap-3 mt-4">
+
+            <a href="https://facebook.com"
+              class="fg-white text-decoration-none">
+              Facebook
+            </a>
+
+            <a href="https://linkedin.com"
+              class="fg-white text-decoration-none">
+              LinkedIn
+            </a>
+
+            <a href="https://github.com"
+              class="fg-white text-decoration-none">
+              GitHub
+            </a>
+
+          </div>
+        </div>
+
+
+        <!-- Quick Links -->
+        <div class="col-6 lg:col-2">
+
+          <h5 class="fw-bold mb-4 fg-success">
+            Quick Links
+          </h5>
+
+          <ul class="list-unstyled d-grid gap-3">
+
+            <li>
+              <a href="index.html"
+                class="fg-white text-decoration-none">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="about.html"
+                class="fg-white text-decoration-none">
+                About Us
+              </a>
+            </li>
+
+            <li>
+              <a href="profile.html"
+                class="fg-white text-decoration-none">
+                Our Profile
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html"
+                class="fg-white text-decoration-none">
+                Services
+              </a>
+            </li>
+
+            <li>
+              <a href="contact.html"
+                class="fg-white text-decoration-none">
+                Contact Us
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+
+        <!-- Our Services -->
+        <div class="col-6 lg:col-3">
+
+          <h5 class="fw-bold mb-4 fg-success">
+            Our Services
+          </h5>
+
+          <ul class="list-unstyled d-grid gap-3">
+
+            <li>
+              <a href="services.html"
+                class="fg-white text-decoration-none">
+                Web Development
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html"
+                class="fg-white text-decoration-none">
+                Mobile App Development
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html"
+                class="fg-white text-decoration-none">
+                Software Solutions
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html"
+                class="fg-white text-decoration-none">
+                Cloud & IT Infrastructure
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html"
+                class="fg-white text-decoration-none">
+                API Integration
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+
+        <!-- Contact Information -->
+        <div class="col-12 md:col-6 lg:col-3">
+
+          <h5 class="fw-bold mb-4 fg-success">
+            Get In Touch
+          </h5>
+
+          <div class="d-grid gap-3 fg-white">
+
+            <div>
+              <span class="fg-success fw-semibold">
+                Address :
+              </span>
+
+              <p class="mb-0 mt-1">
+                Dhaka, Bangladesh
+              </p>
+            </div>
+
+            <div>
+              <span class="fg-success fw-semibold">
+                Email :
+              </span>
+
+              <p class="mb-0 mt-1">
+                <a href="mailto:info@example.com"
+                  class="fg-white text-decoration-none">
+                  info@example.com
+                </a>
+              </p>
+            </div>
+
+            <div>
+              <span class="fg-success fw-semibold">
+                Phone :
+              </span>
+
+              <p class="mb-0 mt-1">
+                <a href="tel:+8801000000000"
+                  class="fg-white text-decoration-none">
+                  +880 1000-000000
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Copyright -->
+      <div class="border-top border-secondary py-4">
+        <div class="row align-items-center g-3">
+
+          <div class="col-12 md:col-6 text-center md:text-start">
+
+            <p class="fg-white mb-0 small">
+              &copy; 2026
+              <span class="fg-success fw-semibold">
+                WebTen
+              </span>.
+              All Rights Reserved.
+            </p>
+
+          </div>
+
+          <div class="col-12 md:col-6 text-center md:text-end">
+
+            <div class="d-flex flex-wrap justify-content-center md:justify-content-end gap-3">
+
+              <a href="privacy.html"
+                class="fg-white text-decoration-none small">
+                Privacy Policy
+              </a>
+
+              <a href="terms.html"
+                class="fg-white text-decoration-none small">
+                Terms & Conditions
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap 6 Alpha JS -->
+  <script type="module"
+    src="js/bootstrap.bundle.min6.js">
+  </script>
+
+</body>
+</html>
